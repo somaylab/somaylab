@@ -1,67 +1,67 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:22c55e&height=200&section=header&text=somaylab&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=building%20useful%20tools%2C%20one%20commit%20at%20a%20time&descAlignY=55&descSize=18" width="100%" alt="somaylab"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:154212,50:2d5a27,100:8e4e14&height=180&section=header&text=somaylab&fontSize=68&fontColor=fbfaee&fontAlignY=42&desc=tools%20that%20are%20quiet%2C%20useful%2C%20and%20just%20work&descAlignY=64&descSize=16" width="100%" alt="somaylab"/>
 
 <br/>
 
-`developer` · `automation` · `web scraping` · `desktop apps`
-
-<img src="https://komarev.com/ghpvc/?username=somaylab&label=Profile%20views&color=6366f1&style=flat-square" alt="profile views"/>
+<img src="https://img.shields.io/badge/automation-154212?style=flat-square&labelColor=2d5a27" alt="automation"/>
+<img src="https://img.shields.io/badge/web_scraping-8e4e14?style=flat-square&labelColor=783d01" alt="web scraping"/>
+<img src="https://img.shields.io/badge/desktop_apps-003a6c?style=flat-square&labelColor=005193" alt="desktop apps"/>
+<img src="https://komarev.com/ghpvc/?username=somaylab&label=views&color=154212&style=flat-square" alt="views"/>
 
 </div>
 
 <br/>
 
-### Halo, saya Somay
+Mostly building automation tools, scrapers, and desktop apps. Less interested in flashy demos, more in software that's tidy, light, and does its job without getting in the way.
 
-Saya bikin tools yang beneran kepakai, fokus di otomasi, web scraping, dan aplikasi desktop yang gampang dipakai. Buat saya, tool terbaik itu yang tinggal klik dua kali langsung jalan, tanpa bikin pusing penggunanya.
-
-Sekarang lagi ngerjain [Map Scrape](https://github.com/somaylab/map-scrape) — scraper Google Maps yang hasilnya langsung jadi Excel rapi. Sambil terus belajar bikin arsitektur aplikasi yang bersih dan bisa berkembang.
-
-Kalau ada yang mau ditanyain soal Python, scraping, atau bikin aplikasi desktop, boleh sapa saya.
+Currently working on **[Map Scrape](https://github.com/somaylab/map-scrape)** — a Google Maps scraper that turns raw place data into clean spreadsheets.
 
 <br/>
 
-### Tech Stack
+### Stack
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<img src="https://img.shields.io/badge/JavaScript-1b1c15?style=for-the-badge&logo=javascript&logoColor=f7df1e" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/TypeScript-1b1c15?style=for-the-badge&logo=typescript&logoColor=3178c6" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/Node.js-1b1c15?style=for-the-badge&logo=nodedotjs&logoColor=5fa04e" alt="Node.js"/>
+<img src="https://img.shields.io/badge/React-1b1c15?style=for-the-badge&logo=react&logoColor=61dafb" alt="React"/>
+<img src="https://img.shields.io/badge/Python-1b1c15?style=for-the-badge&logo=python&logoColor=ffd343" alt="Python"/>
+<br/>
+<img src="https://img.shields.io/badge/FastAPI-1b1c15?style=for-the-badge&logo=fastapi&logoColor=05998b" alt="FastAPI"/>
+<img src="https://img.shields.io/badge/Playwright-1b1c15?style=for-the-badge&logo=playwright&logoColor=2ead33" alt="Playwright"/>
+<img src="https://img.shields.io/badge/Tailwind-1b1c15?style=for-the-badge&logo=tailwindcss&logoColor=06b6d4" alt="Tailwind"/>
+<img src="https://img.shields.io/badge/PostgreSQL-1b1c15?style=for-the-badge&logo=postgresql&logoColor=4169e1" alt="PostgreSQL"/>
+<img src="https://img.shields.io/badge/Docker-1b1c15?style=for-the-badge&logo=docker&logoColor=2496ed" alt="Docker"/>
 
 </div>
 
 <br/>
 
-### Statistik
+### Activity
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=somaylab&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=22c55e" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=somaylab&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1" alt="top languages"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=somaylab&show_icons=true&hide_border=true&bg_color=fbfaee&title_color=154212&text_color=42493e&icon_color=8e4e14&border_color=c2c9bb" alt="stats"/>
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=somaylab&layout=compact&hide_border=true&bg_color=fbfaee&title_color=154212&text_color=42493e&border_color=c2c9bb&langs_count=8" alt="top languages"/>
 
 </div>
 
 <br/>
 
-### Project utama
+### Featured
 
 <div align="center">
 
 <a href="https://github.com/somaylab/map-scrape">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=somaylab&repo=map-scrape&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6366f1&icon_color=22c55e" alt="Map Scrape"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=somaylab&repo=map-scrape&hide_border=true&bg_color=fbfaee&title_color=154212&text_color=42493e&icon_color=8e4e14&border_color=c2c9bb" alt="Map Scrape"/>
 </a>
 
 </div>
 
-Map Scrape — aplikasi desktop buat ngumpulin data tempat usaha dari Google Maps (nama, rating, ulasan, kontak, jam buka) lalu ekspor jadi Excel rapi. Browser stealth, grid search, dua antarmuka, portabel.
+<br/>
 
 <div align="center">
-<br/>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22c55e,100:6366f1&height=100&section=footer" width="100%" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:8e4e14,50:2d5a27,100:154212&height=80&section=footer" width="100%" alt="footer"/>
 </div>
