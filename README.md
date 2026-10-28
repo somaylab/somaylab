@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner-somaylab.svg?v=7" alt="Somaylab" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner-somaylab.svg?v=8" alt="Somaylab" width="100%" />
 
 </div>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/dev-status.svg?v=7" alt="Somaylab Vibe Check" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/dev-status.svg?v=8" alt="Somaylab Vibe Check" width="100%" />
 
 </div>
 
@@ -22,10 +22,10 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 <div align="center">
   <a href="https://github.com/somaylab/session-swap">
-    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-session-swap-v2.svg?v=7" width="49%" alt="session-swap" />
+    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-session-swap-v2.svg?v=8" width="49%" alt="session-swap" />
   </a>
   <a href="https://github.com/somaylab/map-scrape">
-    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-map-scrape-v2.svg?v=7" width="49%" alt="map-scrape" />
+    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-map-scrape-v2.svg?v=8" width="49%" alt="map-scrape" />
   </a>
 </div>
 
@@ -68,7 +68,7 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/stat-sheet.svg?v=7" alt="Dev RPG Attributes" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/stat-sheet.svg?v=8" alt="Dev RPG Attributes" width="100%" />
 
 </div>
 
@@ -92,7 +92,7 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
   <img src="https://img.shields.io/badge/TypeScript-21262D?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/JavaScript-21262D?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/HTML5-21262D?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-21262D?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/CSS3-21262D?style=flat-square&logo=css&logoColor=1572B6" alt="CSS3"/>
 </div>
 
 <br/>
@@ -138,7 +138,7 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/developer-stats.svg?v=7" width="49%" alt="Engineering Stats" />
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/languages-stats.svg?v=7" width="49%" alt="Most Used Languages" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/developer-stats.svg?v=8" width="49%" alt="Engineering Stats" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/languages-stats.svg?v=8" width="49%" alt="Most Used Languages" />
 
 </div>
