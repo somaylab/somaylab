@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner-somaylab.svg?v=11" alt="Somaylab" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner-somaylab-v2.svg?v=11" alt="Somaylab" width="100%" />
 
 </div>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/dev-status.svg?v=11" alt="Somaylab Vibe Check" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/dev-status-v2.svg?v=11" alt="Somaylab Vibe Check" width="100%" />
 
 </div>
 
