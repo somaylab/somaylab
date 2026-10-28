@@ -99,11 +99,11 @@ Raw dogging native browser APIs, local reverse proxies, and headless scrapers so
 
 <br/>
 
-### Activity
+### Activity & Metrics
 
 <div align="center">
 
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=somaylab&show_icons=true&hide_border=false&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&bg_color=0d1117&border_color=30363d" alt="GitHub Stats"/>
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=somaylab&layout=compact&hide_border=false&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&border_color=30363d&langs_count=6" alt="Top Languages"/>
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/developer-stats.svg" width="49%" alt="Engineering Stats" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/languages-stats.svg" width="49%" alt="Most Used Languages" />
 
 </div>
