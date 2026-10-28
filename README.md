@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner-somaylab.svg?v=10" alt="Somaylab" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner-somaylab.svg?v=11" alt="Somaylab" width="100%" />
 
 </div>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/dev-status.svg?v=10" alt="Somaylab Vibe Check" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/dev-status.svg?v=11" alt="Somaylab Vibe Check" width="100%" />
 
 </div>
 
@@ -22,10 +22,10 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 <div align="center">
   <a href="https://github.com/somaylab/session-swap">
-    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-session-swap-v2.svg?v=10" width="49%" alt="session-swap" />
+    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-session-swap-v2.svg?v=11" width="49%" alt="session-swap" />
   </a>
   <a href="https://github.com/somaylab/map-scrape">
-    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-map-scrape-v2.svg?v=10" width="49%" alt="map-scrape" />
+    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-map-scrape-v2.svg?v=11" width="49%" alt="map-scrape" />
   </a>
 </div>
 
@@ -68,7 +68,7 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/stat-sheet.svg?v=10" alt="Dev RPG Attributes" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/stat-sheet.svg?v=11" alt="Dev RPG Attributes" width="100%" />
 
 </div>
 
@@ -119,7 +119,7 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/developer-stats.svg?v=10" width="49%" alt="Engineering Stats" />
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/languages-stats.svg?v=10" width="49%" alt="Most Used Languages" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/developer-stats.svg?v=11" width="49%" alt="Engineering Stats" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/languages-stats.svg?v=11" width="49%" alt="Most Used Languages" />
 
 </div>
