@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner-somaylab.svg?v=9" alt="Somaylab" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner-somaylab.svg?v=10" alt="Somaylab" width="100%" />
 
 </div>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/dev-status.svg?v=9" alt="Somaylab Vibe Check" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/dev-status.svg?v=10" alt="Somaylab Vibe Check" width="100%" />
 
 </div>
 
@@ -22,10 +22,10 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 <div align="center">
   <a href="https://github.com/somaylab/session-swap">
-    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-session-swap-v2.svg?v=9" width="49%" alt="session-swap" />
+    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-session-swap-v2.svg?v=10" width="49%" alt="session-swap" />
   </a>
   <a href="https://github.com/somaylab/map-scrape">
-    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-map-scrape-v2.svg?v=9" width="49%" alt="map-scrape" />
+    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-map-scrape-v2.svg?v=10" width="49%" alt="map-scrape" />
   </a>
 </div>
 
@@ -68,7 +68,7 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/stat-sheet.svg?v=9" alt="Dev RPG Attributes" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/stat-sheet.svg?v=10" alt="Dev RPG Attributes" width="100%" />
 
 </div>
 
@@ -78,7 +78,7 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 - **Languages**: TypeScript, JavaScript (ESNext), Python 3, Rust, PHP, Java
 - **Frontend & Web**: React 18/19, Inertia.js, Tailwind CSS, Vite, Blade Templates, Headless UI
-- **Backend & APIs**: Laravel 11+ (PHP 8.2+), FastAPI & Uvicorn, Cloudflare Workers, Rust Async, Hono, Node.js, Express, SQLite & MySQL
+- **Backend & APIs**: Laravel 11+ (PHP 8.2+), FastAPI & Uvicorn, Cloudflare Workers, Rust Async, Hono, Node.js, Express, PostgreSQL, MySQL & SQLite
 - **Extensions & Desktop**: Chromium Manifest V3 (MV3), Firefox Gecko, Tauri v2 (Rust), pywebview (Python Desktop), Android 16 Xposed
 - **Automation & Scraping**: Playwright, Patchright (Stealth), Headless Chromium, Puppeteer, Cheerio, Pandas, XlsxWriter
 
@@ -106,6 +106,8 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
   <img src="https://img.shields.io/badge/Playwright-21262D?style=flat-square&logo=playwright&logoColor=45BA4B" alt="Playwright"/>
   <img src="https://img.shields.io/badge/Puppeteer-21262D?style=flat-square&logo=puppeteer&logoColor=00D8A2" alt="Puppeteer"/>
   <img src="https://img.shields.io/badge/Pandas-21262D?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-21262D?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/MySQL-21262D?style=flat-square&logo=mysql&logoColor=4479A1" alt="MySQL"/>
   <img src="https://img.shields.io/badge/SQLite-21262D?style=flat-square&logo=sqlite&logoColor=003B57" alt="SQLite"/>
   <img src="https://img.shields.io/badge/Docker-21262D?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker"/>
   <img src="https://img.shields.io/badge/Linux_WSL-21262D?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux WSL"/>
@@ -117,7 +119,7 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/developer-stats.svg?v=9" width="49%" alt="Engineering Stats" />
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/languages-stats.svg?v=9" width="49%" alt="Most Used Languages" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/developer-stats.svg?v=10" width="49%" alt="Engineering Stats" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/languages-stats.svg?v=10" width="49%" alt="Most Used Languages" />
 
 </div>
