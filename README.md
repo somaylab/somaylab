@@ -56,8 +56,8 @@ Raw dogging native browser APIs, local reverse proxies, and headless scrapers so
 - **worker** *(TypeScript & Cloudflare Workers)*  
   Retro Macintosh-styled cloud asset downloader and edge stream worker running on Cloudflare's serverless edge.
 
-- **Juragan-Airport** *(JavaScript)*  
-  Enterprise multi-domain airport handling operations monolith across production, staging, and development environments.
+- **Juragan-Airport** *(PHP / Laravel & JavaScript)*  
+  Full-stack enterprise airport handling operations monolith across production, staging, and development environments. Engineered with a Laravel REST API (reservations, invoices, dispatchers) and interactive client portal.
 
 <br/>
 
@@ -73,11 +73,10 @@ Raw dogging native browser APIs, local reverse proxies, and headless scrapers so
 
 ### Tech Stack
 
-- **Languages**: TypeScript, JavaScript (ESNext), Python 3, Rust, Java
-- **Browser Platforms**: Chromium Manifest V3 (Service Workers, Offscreen Docs), Firefox Gecko WebExtensions
+- **Languages**: TypeScript, JavaScript (ESNext), Python 3, Rust, PHP (Laravel), Java
+- **Backend & Platforms**: Laravel (PHP), Cloudflare Workers, Node.js (V8), Chromium MV3, Firefox Gecko
 - **Automation & Crawling**: Playwright, Puppeteer, Headless Chromium, Cheerio
-- **Systems & Desktop**: Tauri v2, Electron, Node.js (V8), Vite, TailwindCSS, SQLite, Docker, Linux (WSL), Android 16 Xposed
-- **Cloud & Edge**: Cloudflare Workers, REST APIs
+- **Systems & Desktop**: Tauri v2, Electron, Vite, TailwindCSS, SQLite, Docker, Linux (WSL), Android 16 Xposed
 
 <br/>
 
@@ -85,6 +84,8 @@ Raw dogging native browser APIs, local reverse proxies, and headless scrapers so
 
 <img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
 <img src="https://img.shields.io/badge/Rust-0D1117?style=flat-square&logo=rust&logoColor=DEA584" alt="Rust"/>
+<img src="https://img.shields.io/badge/PHP-0D1117?style=flat-square&logo=php&logoColor=777BB4" alt="PHP"/>
+<img src="https://img.shields.io/badge/Laravel-0D1117?style=flat-square&logo=laravel&logoColor=FF2D20" alt="Laravel"/>
 <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" alt="Python"/>
 <img src="https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"/>
 <img src="https://img.shields.io/badge/Chromium_MV3-0D1117?style=flat-square&logo=googlechrome&logoColor=4285F4" alt="Chromium"/>
