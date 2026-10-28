@@ -25,69 +25,75 @@ All systems are engineered under a strict zero-trust operational doctrine:
 
 <br/>
 
-## Core Repositories & Systems
+## Core Systems & Repositories
 
-| System | Domain | Architecture | Capabilities |
-| :--- | :--- | :--- | :--- |
-| **[session-swap](https://github.com/somaylab/session-swap)** | State Containerization | Manifest V3 / WebExtensions / DevPop UI | Multi-account container switching, CHIPS `partitionKey` isolation, 1:1 disaster recovery snapshotting, and zero-telemetry client storage. |
-| **[ghost-profile](https://github.com/somaylab/ghost-profile)** | Anti-Fingerprinting | Chromium & Gecko Runtime Overrides | Multi-vector entropy spoofing: WebGL shader noise, Canvas 2D mutation, AudioContext jitter, and hardware/locale virtualization. |
-| **[map-scrape](https://github.com/somaylab/map-scrape)** | Spatial Data Harvesting | Headless Chromium / Python & Node.js | High-throughput Google Maps entity scraping, stealth request orchestration, and automated normalization into structured XLSX/CSV. |
-| **[Haha-Cookies](https://github.com/somaylab/Haha-Cookies)** | Runtime State Telemetry | Chrome Extension MV3 / Storage APIs | Real-time cookie jar lifecycle telemetry, partition inspection, and developer diagnostic auditing. |
+- **[session-swap](https://github.com/somaylab/session-swap)**  
+  `Domain:` Browser State Isolation & Containerization  
+  `Stack:` TypeScript, Manifest V3, WebExtensions, DevPop Brutal UI  
+  `Capabilities:` Multi-account container switching, CHIPS `partitionKey` isolation (RFC 6265bis), 1:1 disaster recovery snapshotting, and strictly offline local persistence.
+
+- **[ghost-profile](https://github.com/somaylab/ghost-profile)**  
+  `Domain:` Anti-Fingerprinting & Entropy Spoofing  
+  `Stack:` JavaScript, Chromium & Gecko Runtime Overrides  
+  `Capabilities:` Multi-vector entropy spoofing across WebGL shader noise, Canvas 2D mutation, AudioContext jitter, and hardware/locale virtualization.
+
+- **[map-scrape](https://github.com/somaylab/map-scrape)**  
+  `Domain:` Spatial Data Harvesting  
+  `Stack:` Python, Headless Chromium, Playwright, Node.js  
+  `Capabilities:` High-throughput Google Maps entity scraping, stealth request orchestration, and automated schema normalization into structured XLSX/CSV.
+
+- **[Haha-Cookies](https://github.com/somaylab/Haha-Cookies)**  
+  `Domain:` Runtime State Telemetry  
+  `Stack:` JavaScript, Chrome Extension MV3, Storage APIs  
+  `Capabilities:` Real-time cookie jar lifecycle telemetry, partition inspection, and developer diagnostic auditing.
 
 <br/>
 
 ## System Architecture
 
 ```text
-+-----------------------------------------------------------------------------------------+
-|                      SOMAY SECURITY RESEARCH LAB ARCHITECTURE                           |
-+-----------------------------------------------------------------------------------------+
-|                                                                                         |
-|  [ HARVESTING & EXTRACTION ]            [ RUNTIME ISOLATION & STEALTH ]                 |
-|                                                                                         |
-|      +--------------------+                 +---------------------+                     |
-|      |     map-scrape     |                 |    ghost-profile    |                     |
-|      | Spatial Extraction |                 | Entropy Spoofing    |                     |
-|      | Headless Chromium  |                 | Canvas/WebGL/Audio  |                     |
-|      +---------+----------+                 +----------+----------+                     |
-|                |                                       |                                |
-|                +-------------------+-------------------+                                |
-|                                    |                                                    |
-|                                    v                                                    |
-|      +-------------------------------------------------------------+                    |
-|      |                 BROWSER RUNTIME SANDBOX (MV3)               |                    |
-|      |    - Offscreen Documents       - Chrome DevTools Protocol   |                    |
-|      |    - Extension Service Worker  - WebExtensions Native APIs  |                    |
-|      +-----------------------------+-------------------------------+                    |
-|                                    |                                                    |
-|                                    v                                                    |
-|                        [ PERSISTENCE & ISOLATION ]                                      |
-|                                                                                         |
-|                        +-------------------------+                                      |
-|                        |      session-swap       |                                      |
-|                        | CHIPS RFC 6265bis Store |                                      |
-|                        | 1:1 State Backup Engine |                                      |
-|                        +------------+------------+                                      |
-|                                     |                                                   |
-|                                     v                                                   |
-|  +-----------------------------------------------------------------------------------+  |
-|  | SPECIFICATION: STRICT OFFLINE | ZERO TELEMETRY | DETERMINISTIC 1:1 REPLAY         |  |
-|  +-----------------------------------------------------------------------------------+  |
-+-----------------------------------------------------------------------------------------+
++--------------------------------------------------------------+
+|             SOMAY SECURITY RESEARCH LAB TOPOLOGY             |
++--------------------------------------------------------------+
+|                                                              |
+|  [ INGRESS & RECON ]               [ RUNTIME HARDENING ]     |
+|  +--------------------+            +--------------------+    |
+|  |     map-scrape     |            |   ghost-profile    |    |
+|  | Spatial Extraction |            |  Entropy Spoofing  |    |
+|  +---------+----------+            +---------+----------+    |
+|            |                                 |               |
+|            +----------------+----------------+               |
+|                             |                                |
+|                             v                                |
+|  +--------------------------------------------------------+  |
+|  |              BROWSER RUNTIME SANDBOX (MV3)             |  |
+|  |  Offscreen Docs  |  CDP Telemetry  |  Service Worker   |  |
+|  +--------------------------+-----------------------------+  |
+|                             |                                |
+|                             v                                |
+|  +--------------------------------------------------------+  |
+|  |         session-swap (CHIPS RFC 6265bis Store)         |  |
+|  |               1:1 Deterministic Recovery               |  |
+|  +--------------------------+-----------------------------+  |
+|                             |                                |
+|                             v                                |
+|  +--------------------------------------------------------+  |
+|  |   CLIENT-SIDE SOVEREIGNTY: 100% OFFLINE | ZERO SINK    |  |
+|  +--------------------------------------------------------+  |
++--------------------------------------------------------------+
 ```
 
 <br/>
 
 ## Technical Arsenal
 
-```text
-Browser Internals  : Manifest V3, WebExtensions, CDP (Chrome DevTools Protocol), CHIPS (RFC 6265bis)
-Languages & Core   : TypeScript, JavaScript (ESNext), Python 3, Node.js (V8)
-Automation         : Playwright, Puppeteer, Headless Chromium, Cheerio
-UI & Desktop Apps  : Electron, Vite, TailwindCSS (Brutalist High-Density), HTML5 Canvas
-Systems & Storage  : Docker, Linux (WSL), SQLite, Chrome Storage API, IndexedDB
-Security & Recon   : Network Traffic Interception, Entropy Spoofing, Fingerprint Auditing
-```
+- **Browser Internals**: Manifest V3, WebExtensions, CDP (Chrome DevTools Protocol), CHIPS (RFC 6265bis), Cookie Partitioning
+- **Core Languages**: TypeScript, JavaScript (ESNext), Python 3.12+, Node.js (V8)
+- **Automation & Crawling**: Playwright, Puppeteer, Headless Chromium, Cheerio
+- **Desktop & Infrastructure**: Electron, Vite, TailwindCSS (Brutalist High-Density), SQLite, Docker, Linux (WSL)
+- **Security & Analysis**: Traffic Interception, Entropy Spoofing, Fingerprint Auditing, Reverse Engineering
+
+<br/>
 
 <div align="left">
 
