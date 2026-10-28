@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 155" width="100%" height="100%">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="bar-fill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="155" rx="8" fill="url(#card-bg)" stroke="#30363D" stroke-width="1.5" />
+
+  <!-- Top Terminal Bar -->
+  <rect width="900" height="30" rx="8" fill="#161B22" />
+  <rect y="24" width="900" height="6" fill="#161B22" />
+  <line x1="0" y1="30" x2="900" y2="30" stroke="#30363D" stroke-width="1" />
+
+  <!-- Window Dots -->
+  <circle cx="20" cy="15" r="4.5" fill="#EF4444" />
+  <circle cx="34" cy="15" r="4.5" fill="#F59E0B" />
+  <circle cx="48" cy="15" r="4.5" fill="#10B981" />
+
+  <text x="450" y="20" fill="#8B949E" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11" font-weight="600" text-anchor="middle">somaylab@workstation: ~/vibe-check (zsh)</text>
+
+  <!-- LEFT MASCOT: Cute Retro Pixel Cat at CRT Terminal -->
+  <rect x="35" y="65" width="55" height="42" rx="4" fill="#1F2937" stroke="#374151" stroke-width="1" />
+  <rect x="40" y="70" width="45" height="32" rx="2" fill="#0A0F1D" />
+  <line x1="44" y1="78" x2="65" y2="78" stroke="#10B981" stroke-width="2" />
+  <line x1="44" y1="84" x2="78" y2="84" stroke="#38BDF8" stroke-width="1.5" />
+  <line x1="44" y1="90" x2="58" y2="90" stroke="#10B981" stroke-width="1.5" />
+  <rect x="58" y="96" width="10" height="10" fill="#374151" />
+  <rect x="50" y="106" width="26" height="4" rx="2" fill="#4B5563" />
+
+  <!-- Pixel Cat Typing -->
+  <polygon points="105,62 112,50 119,62" fill="#FBBF24" />
+  <polygon points="121,62 128,50 135,62" fill="#FBBF24" />
+  <polygon points="108,61 113,54 118,61" fill="#F472B6" />
+  <polygon points="122,61 127,54 132,61" fill="#F472B6" />
+  <rect x="105" y="60" width="30" height="24" rx="6" fill="#FBBF24" />
+  <rect x="111" y="68" width="4" height="4" rx="1" fill="#0F172A" />
+  <rect x="125" y="68" width="4" height="4" rx="1" fill="#0F172A" />
+  <ellipse cx="109" cy="74" rx="2.5" ry="1.5" fill="#F472B6" opacity="0.6" />
+  <ellipse cx="131" cy="74" rx="2.5" ry="1.5" fill="#F472B6" opacity="0.6" />
+  <rect x="108" y="84" width="24" height="24" rx="4" fill="#FBBF24" />
+  <rect x="94" y="98" width="14" height="6" rx="3" fill="#FDE68A" stroke="#D97706" stroke-width="0.5" />
+  <path d="M 132 102 C 142 102, 146 92, 142 85" fill="none" stroke="#FBBF24" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Speech Bubble -->
+  <rect x="92" y="38" width="85" height="18" rx="4" fill="#1E293B" stroke="#475569" stroke-width="1" />
+  <polygon points="112,56 116,61 120,56" fill="#1E293B" stroke="#475569" stroke-width="0.5" />
+  <text x="134.5" y="51" fill="#38BDF8" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="9.5" font-weight="700" text-anchor="middle">let him cook</text>
+
+  <!-- Divider -->
+  <line x1="190" y1="42" x2="190" y2="140" stroke="#30363D" stroke-width="1" stroke-dasharray="3 3" />
+
+  <!-- RIGHT COLUMN -->
+  <text x="210" y="58" fill="#8B949E" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11.5" font-weight="600">Vibe:</text>
+  <text x="325" y="58" fill="#F1F5F9" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11.5">Cooking offline utilities (raw dogging native APIs, zero fluff)</text>
+
+  <text x="210" y="79" fill="#8B949E" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11.5" font-weight="600">Telemetry:</text>
+  <text x="325" y="79" fill="#34D399" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11.5">0.00 KB (offline-first gang, your data is none of my business)</text>
+
+  <text x="210" y="100" fill="#8B949E" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11.5" font-weight="600">Architecture:</text>
+  <text x="325" y="100" fill="#38BDF8" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11.5">Laravel &amp; Node.js // React // MV3 Extensions // Rust Tauri</text>
+
+  <text x="210" y="123" fill="#8B949E" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11.5" font-weight="600">Caffeine Tank:</text>
+  <rect x="325" y="113" width="180" height="12" rx="3" fill="#1F2937" stroke="#374151" stroke-width="1" />
+  <rect x="326" y="114" width="178" height="10" rx="2" fill="url(#bar-fill)" />
+  <text x="515" y="123" fill="#FBBF24" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11" font-weight="700">100% [READY TO SHIP]</text>
+</svg>
