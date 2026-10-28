@@ -64,7 +64,7 @@
   <text x="325" y="79" fill="#34D399" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11.5">0.00 KB (offline-first gang, your data is none of my business)</text>
 
   <text x="210" y="100" fill="#8B949E" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11.5" font-weight="600">Architecture:</text>
-  <text x="325" y="100" fill="#38BDF8" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11.5">MV3 Extensions // Rust &amp; Tauri v2 // PHP Laravel // Android Xposed</text>
+  <text x="325" y="100" fill="#38BDF8" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11.5">Full-Stack Web (Laravel &amp; React) // MV3 // Rust &amp; Tauri // CF Workers</text>
 
   <text x="210" y="123" fill="#8B949E" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11.5" font-weight="600">Caffeine Tank:</text>
   <rect x="325" y="113" width="180" height="12" rx="3" fill="#1F2937" stroke="#374151" stroke-width="1" />
