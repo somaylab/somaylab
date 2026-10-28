@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="50%" stop-color="#0C1322" />
+      <stop offset="100%" stop-color="#070A10" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="220" rx="8" fill="url(#bg-grad)" stroke="#1E293B" stroke-width="1.5" />
+  <rect width="900" height="220" rx="8" fill="url(#grid)" />
+
+  <!-- Terminal Window Bar -->
+  <rect width="900" height="34" rx="8" fill="#0F172A" />
+  <rect y="26" width="900" height="8" fill="#0F172A" />
+  <line x1="0" y1="34" x2="900" y2="34" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Window Dots -->
+  <circle cx="22" cy="17" r="5" fill="#EF4444" opacity="0.8" />
+  <circle cx="38" cy="17" r="5" fill="#F59E0B" opacity="0.8" />
+  <circle cx="54" cy="17" r="5" fill="#10B981" opacity="0.8" />
+
+  <!-- Terminal Header Title -->
+  <text x="450" y="22" fill="#64748B" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="1">somaylab@research-node: ~ (arch-x86_64)</text>
+
+  <!-- Command Prompt -->
+  <text x="32" y="66" fill="#10B981" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="12" font-weight="700">root@somaylab:~#</text>
+  <text x="175" y="66" fill="#93C5FD" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="12">./somaylab-core --mode=offensive-defensive --status</text>
+
+  <!-- Main Entity Branding -->
+  <text x="32" y="118" fill="url(#text-grad)" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', 'Segoe UI', monospace" font-size="30" font-weight="900" letter-spacing="2">SOMAY SECURITY RESEARCH LAB</text>
+
+  <!-- Tagline / Research Focus -->
+  <text x="34" y="148" fill="#38BDF8" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="12.5" font-weight="600" letter-spacing="1.5">BROWSER ARCHITECTURE // SESSION ISOLATION // REVERSE ENGINEERING // SPATIAL RECON</text>
+
+  <!-- Status Tags -->
+  <!-- Tag 1 -->
+  <rect x="32" y="172" width="180" height="26" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <text x="122" y="189" fill="#F1F5F9" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="10" font-weight="600" text-anchor="middle">SOVEREIGNTY: 100% OFFLINE</text>
+
+  <!-- Tag 2 -->
+  <rect x="224" y="172" width="165" height="26" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <text x="306" y="189" fill="#F1F5F9" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="10" font-weight="600" text-anchor="middle">TELEMETRY: STRICT ZERO</text>
+
+  <!-- Tag 3 -->
+  <rect x="401" y="172" width="205" height="26" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <text x="503" y="189" fill="#F1F5F9" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="10" font-weight="600" text-anchor="middle">RUNTIME: MANIFEST V3 / CHROMIUM</text>
+
+  <!-- Tag 4 -->
+  <rect x="618" y="172" width="150" height="26" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <text x="693" y="189" fill="#34D399" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="10" font-weight="600" text-anchor="middle">PROTOCOL: ACTIVE LAB</text>
+</svg>
