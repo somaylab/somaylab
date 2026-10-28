@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner.svg" alt="Somaylab" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner-somaylab.svg" alt="Somaylab" width="100%" />
 
 </div>
 
