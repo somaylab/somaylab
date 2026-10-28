@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 185" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="50%" stop-color="#0D1424" />
+      <stop offset="100%" stop-color="#070A10" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#F1F5F9" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.5" stroke-opacity="0.25" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="185" rx="8" fill="url(#bg-grad)" stroke="#1E293B" stroke-width="1.5" />
+  <rect width="900" height="185" rx="8" fill="url(#grid)" />
+
+  <!-- Terminal Window Bar -->
+  <rect width="900" height="34" rx="8" fill="#0F172A" />
+  <rect y="26" width="900" height="8" fill="#0F172A" />
+  <line x1="0" y1="34" x2="900" y2="34" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Window Dots -->
+  <circle cx="22" cy="17" r="5" fill="#EF4444" opacity="0.8" />
+  <circle cx="38" cy="17" r="5" fill="#F59E0B" opacity="0.8" />
+  <circle cx="54" cy="17" r="5" fill="#10B981" opacity="0.8" />
+
+  <!-- Terminal Header Title -->
+  <text x="450" y="22" fill="#64748B" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="1">somaylab@workstation: ~ (sh)</text>
+
+  <!-- Command Prompt -->
+  <text x="32" y="64" fill="#10B981" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="12" font-weight="700">somaylab@workstation:~$</text>
+  <text x="215" y="64" fill="#93C5FD" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="12">whoami &amp;&amp; cat focus.txt</text>
+
+  <!-- Main Entity Branding: Just Somaylab -->
+  <text x="32" y="106" fill="url(#text-grad)" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', 'Segoe UI', monospace" font-size="32" font-weight="900" letter-spacing="2">SOMAYLAB</text>
+
+  <!-- Tagline -->
+  <text x="34" y="132" fill="#38BDF8" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="12" font-weight="600" letter-spacing="1.2">BROWSER EXTENSIONS // WEB SCRAPING // AUTOMATION // DESKTOP APPS</text>
+
+  <!-- Status Tags -->
+  <rect x="32" y="148" width="160" height="24" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <text x="112" y="164" fill="#F1F5F9" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="10" font-weight="600" text-anchor="middle">MANIFEST V3 / CHROMIUM</text>
+
+  <rect x="202" y="148" width="150" height="24" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <text x="277" y="164" fill="#F1F5F9" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="10" font-weight="600" text-anchor="middle">TYPESCRIPT &amp; PYTHON</text>
+
+  <rect x="362" y="148" width="165" height="24" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <text x="444.5" y="164" fill="#F1F5F9" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="10" font-weight="600" text-anchor="middle">HEADLESS AUTOMATION</text>
+
+  <rect x="537" y="148" width="135" height="24" rx="4" fill="#1E293B" stroke="#334155" stroke-width="1" />
+  <text x="604.5" y="164" fill="#34D399" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="10" font-weight="600" text-anchor="middle">ZERO TELEMETRY</text>
+</svg>
