@@ -1,97 +1,50 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner.svg" alt="Somay Security Research Lab" width="100%" />
-
-<br/>
-
-<a href="https://github.com/somaylab"><img src="https://img.shields.io/badge/RESEARCH_LAB-OFFENSIVE_DEFENSIVE-0D1117?style=flat-square&logo=shield&logoColor=10B981" alt="Research Lab"/></a>
-<a href="https://github.com/somaylab"><img src="https://img.shields.io/badge/ENGINE-CHROMIUM_%2F_GECKO_MV3-0D1117?style=flat-square&logo=googlechrome&logoColor=38BDF8" alt="Engine"/></a>
-<a href="https://github.com/somaylab"><img src="https://img.shields.io/badge/DATA_SOVEREIGNTY-100%25_OFFLINE-0D1117?style=flat-square&logo=databricks&logoColor=F59E0B" alt="Data Sovereignty"/></a>
-<a href="https://github.com/somaylab"><img src="https://img.shields.io/badge/TELEMETRY-STRICT_ZERO-0D1117?style=flat-square&logo=target&logoColor=EF4444" alt="Telemetry"/></a>
-<img src="https://komarev.com/ghpvc/?username=somaylab&label=LAB_VISITORS&color=0d1117&style=flat-square" alt="Visitors"/>
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner.svg" alt="Somaylab" width="100%" />
 
 </div>
 
 <br/>
 
-## Laboratory Mandate
-
-Somay Security Research Lab develops deterministic software, security audit utilities, and extraction engines. The mandate focuses on offensive security research directed toward defensive hardening, browser runtime isolation, anti-fingerprinting entropy, and client-side data sovereignty.
-
-All systems are engineered under a strict zero-trust operational doctrine:
-- **Client-Side Sovereignty**: Zero upstream telemetry, zero cloud synchronizers, and zero analytics sinks. Data never leaves the host runtime.
-- **Deterministic State Fidelity**: State capture, serialization, and restoration achieve 1:1 parity with RFC specifications (including RFC 6265bis CHIPS partition keys).
-- **Minimal Attack Surface**: Native browser and OS APIs are prioritized over runtime bloat to prevent privilege escalation and memory decay.
+Building automation tools, web scrapers, browser extensions, and desktop applications. Focused on clean architecture, minimal overhead, and software that does its job reliably without unnecessary dependencies or telemetry.
 
 <br/>
 
-## Core Systems & Repositories
+### Featured Projects
+
+<div align="center">
+  <a href="https://github.com/somaylab/session-swap">
+    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-session-swap.svg" width="49%" alt="session-swap" />
+  </a>
+  <a href="https://github.com/somaylab/map-scrape">
+    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-map-scrape.svg" width="49%" alt="map-scrape" />
+  </a>
+</div>
+
+<br/>
+
+### Projects
 
 - **[session-swap](https://github.com/somaylab/session-swap)**  
-  `Domain:` Browser State Isolation & Containerization  
-  `Stack:` TypeScript, Manifest V3, WebExtensions, DevPop Brutal UI  
-  `Capabilities:` Multi-account container switching, CHIPS `partitionKey` isolation (RFC 6265bis), 1:1 disaster recovery snapshotting, and strictly offline local persistence.
-
-- **[ghost-profile](https://github.com/somaylab/ghost-profile)**  
-  `Domain:` Anti-Fingerprinting & Entropy Spoofing  
-  `Stack:` JavaScript, Chromium & Gecko Runtime Overrides  
-  `Capabilities:` Multi-vector entropy spoofing across WebGL shader noise, Canvas 2D mutation, AudioContext jitter, and hardware/locale virtualization.
+  Universal multi-account session switcher and cookie manager for Chrome and Firefox (Manifest V3). Features 1:1 disaster recovery snapshotting, CHIPS `partitionKey` support, and strictly offline client storage.
 
 - **[map-scrape](https://github.com/somaylab/map-scrape)**  
-  `Domain:` Spatial Data Harvesting  
-  `Stack:` Python, Headless Chromium, Playwright, Node.js  
-  `Capabilities:` High-throughput Google Maps entity scraping, stealth request orchestration, and automated schema normalization into structured XLSX/CSV.
+  Desktop application for automated Google Maps business data extraction. Fast, stealth harvesting exported directly to structured Excel (XLSX) and CSV spreadsheets.
+
+- **[ghost-profile](https://github.com/somaylab/ghost-profile)**  
+  Browser anti-fingerprinting extension for Chrome & Firefox. Spoofs WebGL shaders, Canvas 2D noise, AudioContext frequency, hardware concurrency, and locale attributes.
 
 - **[Haha-Cookies](https://github.com/somaylab/Haha-Cookies)**  
-  `Domain:` Runtime State Telemetry  
-  `Stack:` JavaScript, Chrome Extension MV3, Storage APIs  
-  `Capabilities:` Real-time cookie jar lifecycle telemetry, partition inspection, and developer diagnostic auditing.
+  Lightweight session state and tab inspector utility for Chrome (Manifest V3). Real-time cookie jar lifecycle telemetry and developer diagnostics.
 
 <br/>
 
-## System Architecture
+### Stack & Tooling
 
-```text
-+--------------------------------------------------------------+
-|             SOMAY SECURITY RESEARCH LAB TOPOLOGY             |
-+--------------------------------------------------------------+
-|                                                              |
-|  [ INGRESS & RECON ]               [ RUNTIME HARDENING ]     |
-|  +--------------------+            +--------------------+    |
-|  |     map-scrape     |            |   ghost-profile    |    |
-|  | Spatial Extraction |            |  Entropy Spoofing  |    |
-|  +---------+----------+            +---------+----------+    |
-|            |                                 |               |
-|            +----------------+----------------+               |
-|                             |                                |
-|                             v                                |
-|  +--------------------------------------------------------+  |
-|  |              BROWSER RUNTIME SANDBOX (MV3)             |  |
-|  |  Offscreen Docs  |  CDP Telemetry  |  Service Worker   |  |
-|  +--------------------------+-----------------------------+  |
-|                             |                                |
-|                             v                                |
-|  +--------------------------------------------------------+  |
-|  |         session-swap (CHIPS RFC 6265bis Store)         |  |
-|  |               1:1 Deterministic Recovery               |  |
-|  +--------------------------+-----------------------------+  |
-|                             |                                |
-|                             v                                |
-|  +--------------------------------------------------------+  |
-|  |   CLIENT-SIDE SOVEREIGNTY: 100% OFFLINE | ZERO SINK    |  |
-|  +--------------------------------------------------------+  |
-+--------------------------------------------------------------+
-```
-
-<br/>
-
-## Technical Arsenal
-
-- **Browser Internals**: Manifest V3, WebExtensions, CDP (Chrome DevTools Protocol), CHIPS (RFC 6265bis), Cookie Partitioning
-- **Core Languages**: TypeScript, JavaScript (ESNext), Python 3.12+, Node.js (V8)
-- **Automation & Crawling**: Playwright, Puppeteer, Headless Chromium, Cheerio
-- **Desktop & Infrastructure**: Electron, Vite, TailwindCSS (Brutalist High-Density), SQLite, Docker, Linux (WSL)
-- **Security & Analysis**: Traffic Interception, Entropy Spoofing, Fingerprint Auditing, Reverse Engineering
+- **Languages**: TypeScript, JavaScript (ESNext), Python 3, HTML5 / CSS3
+- **Browser Platforms**: Chromium MV3 (Service Workers, Offscreen Docs), Firefox Gecko
+- **Automation & Crawling**: Playwright, Puppeteer, Headless Chrome, Cheerio
+- **Desktop & Infrastructure**: Electron, Node.js (V8), Vite, TailwindCSS, SQLite, Docker, Linux (WSL)
 
 <br/>
 
@@ -111,22 +64,7 @@ All systems are engineered under a strict zero-trust operational doctrine:
 
 <br/>
 
-## Pinned Systems
-
-<div align="center">
-
-<a href="https://github.com/somaylab/session-swap">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=somaylab&repo=session-swap&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&bg_color=0d1117&border_color=30363d&show_owner=true" alt="session-swap"/>
-</a>
-<a href="https://github.com/somaylab/map-scrape">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=somaylab&repo=map-scrape&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&bg_color=0d1117&border_color=30363d&show_owner=true" alt="map-scrape"/>
-</a>
-
-</div>
-
-<br/>
-
-## Telemetry & Activity
+### Activity
 
 <div align="center">
 
@@ -134,11 +72,3 @@ All systems are engineered under a strict zero-trust operational doctrine:
 <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=somaylab&layout=compact&hide_border=false&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&border_color=30363d&langs_count=6" alt="Top Languages"/>
 
 </div>
-
-<br/>
-
-## Operational Protocol & Disclosures
-
-- **Mandate**: All utilities and research artifacts are developed for offensive security analysis, defensive infrastructure hardening, and educational auditing.
-- **Responsible Disclosure**: Security inquiries or vulnerability findings regarding any SomayLab tool should be reported via repository issue or advisory.
-- **Verification**: Production commits are cryptographically signed via verified keys.
