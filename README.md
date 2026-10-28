@@ -1,69 +1,138 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:154212,50:2d5a27,100:8e4e14&height=180&section=header&text=somaylab&fontSize=68&fontColor=fbfaee&fontAlignY=42&desc=tools%20that%20are%20quiet%2C%20useful%2C%20and%20just%20work&descAlignY=64&descSize=16" width="100%" alt="somaylab"/>
+<img src="assets/banner.svg" alt="Somay Security Research Lab" width="100%" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/automation-154212?style=flat-square&labelColor=2d5a27" alt="automation"/>
-<img src="https://img.shields.io/badge/web_scraping-8e4e14?style=flat-square&labelColor=783d01" alt="web scraping"/>
-<img src="https://img.shields.io/badge/desktop_apps-003a6c?style=flat-square&labelColor=005193" alt="desktop apps"/>
-<img src="https://komarev.com/ghpvc/?username=somaylab&label=views&color=154212&style=flat-square" alt="views"/>
+<a href="https://github.com/somaylab"><img src="https://img.shields.io/badge/RESEARCH_LAB-OFFENSIVE_DEFENSIVE-0D1117?style=flat-square&logo=shield&logoColor=10B981" alt="Research Lab"/></a>
+<a href="https://github.com/somaylab"><img src="https://img.shields.io/badge/ENGINE-CHROMIUM_%2F_GECKO_MV3-0D1117?style=flat-square&logo=googlechrome&logoColor=38BDF8" alt="Engine"/></a>
+<a href="https://github.com/somaylab"><img src="https://img.shields.io/badge/DATA_SOVEREIGNTY-100%25_OFFLINE-0D1117?style=flat-square&logo=databricks&logoColor=F59E0B" alt="Data Sovereignty"/></a>
+<a href="https://github.com/somaylab"><img src="https://img.shields.io/badge/TELEMETRY-STRICT_ZERO-0D1117?style=flat-square&logo=target&logoColor=EF4444" alt="Telemetry"/></a>
+<img src="https://komarev.com/ghpvc/?username=somaylab&label=LAB_VISITORS&color=0d1117&style=flat-square" alt="Visitors"/>
 
 </div>
 
 <br/>
 
-Mostly building automation tools, scrapers, and desktop apps. Less interested in flashy demos, more in software that's tidy, light, and does its job without getting in the way.
+## Laboratory Mandate
 
-Currently working on **[Map Scrape](https://github.com/somaylab/map-scrape)** — a Google Maps scraper that turns raw place data into clean spreadsheets.
+Somay Security Research Lab develops deterministic software, security audit utilities, and extraction engines. The mandate focuses on offensive security research directed toward defensive hardening, browser runtime isolation, anti-fingerprinting entropy, and client-side data sovereignty.
+
+All systems are engineered under a strict zero-trust operational doctrine:
+- **Client-Side Sovereignty**: Zero upstream telemetry, zero cloud synchronizers, and zero analytics sinks. Data never leaves the host runtime.
+- **Deterministic State Fidelity**: State capture, serialization, and restoration achieve 1:1 parity with RFC specifications (including RFC 6265bis CHIPS partition keys).
+- **Minimal Attack Surface**: Native browser and OS APIs are prioritized over runtime bloat to prevent privilege escalation and memory decay.
 
 <br/>
 
-### Stack
+## Core Repositories & Systems
 
-<div align="center">
+| System | Domain | Architecture | Capabilities |
+| :--- | :--- | :--- | :--- |
+| **[session-swap](https://github.com/somaylab/session-swap)** | State Containerization | Manifest V3 / WebExtensions / DevPop UI | Multi-account container switching, CHIPS `partitionKey` isolation, 1:1 disaster recovery snapshotting, and zero-telemetry client storage. |
+| **[ghost-profile](https://github.com/somaylab/ghost-profile)** | Anti-Fingerprinting | Chromium & Gecko Runtime Overrides | Multi-vector entropy spoofing: WebGL shader noise, Canvas 2D mutation, AudioContext jitter, and hardware/locale virtualization. |
+| **[map-scrape](https://github.com/somaylab/map-scrape)** | Spatial Data Harvesting | Headless Chromium / Python & Node.js | High-throughput Google Maps entity scraping, stealth request orchestration, and automated normalization into structured XLSX/CSV. |
+| **[Haha-Cookies](https://github.com/somaylab/Haha-Cookies)** | Runtime State Telemetry | Chrome Extension MV3 / Storage APIs | Real-time cookie jar lifecycle telemetry, partition inspection, and developer diagnostic auditing. |
 
-<img src="https://img.shields.io/badge/JavaScript-1b1c15?style=for-the-badge&logo=javascript&logoColor=f7df1e" alt="JavaScript"/>
-<img src="https://img.shields.io/badge/TypeScript-1b1c15?style=for-the-badge&logo=typescript&logoColor=3178c6" alt="TypeScript"/>
-<img src="https://img.shields.io/badge/Node.js-1b1c15?style=for-the-badge&logo=nodedotjs&logoColor=5fa04e" alt="Node.js"/>
-<img src="https://img.shields.io/badge/React-1b1c15?style=for-the-badge&logo=react&logoColor=61dafb" alt="React"/>
-<img src="https://img.shields.io/badge/Python-1b1c15?style=for-the-badge&logo=python&logoColor=ffd343" alt="Python"/>
 <br/>
-<img src="https://img.shields.io/badge/FastAPI-1b1c15?style=for-the-badge&logo=fastapi&logoColor=05998b" alt="FastAPI"/>
-<img src="https://img.shields.io/badge/Playwright-1b1c15?style=for-the-badge&logo=playwright&logoColor=2ead33" alt="Playwright"/>
-<img src="https://img.shields.io/badge/Tailwind-1b1c15?style=for-the-badge&logo=tailwindcss&logoColor=06b6d4" alt="Tailwind"/>
-<img src="https://img.shields.io/badge/PostgreSQL-1b1c15?style=for-the-badge&logo=postgresql&logoColor=4169e1" alt="PostgreSQL"/>
-<img src="https://img.shields.io/badge/Docker-1b1c15?style=for-the-badge&logo=docker&logoColor=2496ed" alt="Docker"/>
+
+## System Architecture
+
+```text
++-----------------------------------------------------------------------------------------+
+|                      SOMAY SECURITY RESEARCH LAB ARCHITECTURE                           |
++-----------------------------------------------------------------------------------------+
+|                                                                                         |
+|  [ HARVESTING & EXTRACTION ]            [ RUNTIME ISOLATION & STEALTH ]                 |
+|                                                                                         |
+|      +--------------------+                 +---------------------+                     |
+|      |     map-scrape     |                 |    ghost-profile    |                     |
+|      | Spatial Extraction |                 | Entropy Spoofing    |                     |
+|      | Headless Chromium  |                 | Canvas/WebGL/Audio  |                     |
+|      +---------+----------+                 +----------+----------+                     |
+|                |                                       |                                |
+|                +-------------------+-------------------+                                |
+|                                    |                                                    |
+|                                    v                                                    |
+|      +-------------------------------------------------------------+                    |
+|      |                 BROWSER RUNTIME SANDBOX (MV3)               |                    |
+|      |    - Offscreen Documents       - Chrome DevTools Protocol   |                    |
+|      |    - Extension Service Worker  - WebExtensions Native APIs  |                    |
+|      +-----------------------------+-------------------------------+                    |
+|                                    |                                                    |
+|                                    v                                                    |
+|                        [ PERSISTENCE & ISOLATION ]                                      |
+|                                                                                         |
+|                        +-------------------------+                                      |
+|                        |      session-swap       |                                      |
+|                        | CHIPS RFC 6265bis Store |                                      |
+|                        | 1:1 State Backup Engine |                                      |
+|                        +------------+------------+                                      |
+|                                     |                                                   |
+|                                     v                                                   |
+|  +-----------------------------------------------------------------------------------+  |
+|  | SPECIFICATION: STRICT OFFLINE | ZERO TELEMETRY | DETERMINISTIC 1:1 REPLAY         |  |
+|  +-----------------------------------------------------------------------------------+  |
++-----------------------------------------------------------------------------------------+
+```
+
+<br/>
+
+## Technical Arsenal
+
+```text
+Browser Internals  : Manifest V3, WebExtensions, CDP (Chrome DevTools Protocol), CHIPS (RFC 6265bis)
+Languages & Core   : TypeScript, JavaScript (ESNext), Python 3, Node.js (V8)
+Automation         : Playwright, Puppeteer, Headless Chromium, Cheerio
+UI & Desktop Apps  : Electron, Vite, TailwindCSS (Brutalist High-Density), HTML5 Canvas
+Systems & Storage  : Docker, Linux (WSL), SQLite, Chrome Storage API, IndexedDB
+Security & Recon   : Network Traffic Interception, Entropy Spoofing, Fingerprint Auditing
+```
+
+<div align="left">
+
+<img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" alt="Python"/>
+<img src="https://img.shields.io/badge/Node.js-0D1117?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"/>
+<img src="https://img.shields.io/badge/Chromium_MV3-0D1117?style=flat-square&logo=googlechrome&logoColor=4285F4" alt="Chromium"/>
+<img src="https://img.shields.io/badge/Firefox_Gecko-0D1117?style=flat-square&logo=firefox&logoColor=FF7139" alt="Firefox"/>
+<img src="https://img.shields.io/badge/Playwright-0D1117?style=flat-square&logo=playwright&logoColor=2EAD33" alt="Playwright"/>
+<img src="https://img.shields.io/badge/Electron-0D1117?style=flat-square&logo=electron&logoColor=47848F" alt="Electron"/>
+<img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker"/>
+<img src="https://img.shields.io/badge/Linux_WSL-0D1117?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux"/>
 
 </div>
 
 <br/>
 
-### Activity
+## Pinned Systems
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=somaylab&show_icons=true&hide_border=true&bg_color=fbfaee&title_color=154212&text_color=42493e&icon_color=8e4e14&border_color=c2c9bb" alt="stats"/>
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=somaylab&layout=compact&hide_border=true&bg_color=fbfaee&title_color=154212&text_color=42493e&border_color=c2c9bb&langs_count=8" alt="top languages"/>
-
-</div>
-
-<br/>
-
-### Featured
-
-<div align="center">
-
+<a href="https://github.com/somaylab/session-swap">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=somaylab&repo=session-swap&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&bg_color=0d1117&border_color=30363d&show_owner=true" alt="session-swap"/>
+</a>
 <a href="https://github.com/somaylab/map-scrape">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=somaylab&repo=map-scrape&hide_border=true&bg_color=fbfaee&title_color=154212&text_color=42493e&icon_color=8e4e14&border_color=c2c9bb" alt="Map Scrape"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=somaylab&repo=map-scrape&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&bg_color=0d1117&border_color=30363d&show_owner=true" alt="map-scrape"/>
 </a>
 
 </div>
 
 <br/>
 
+## Telemetry & Activity
+
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:8e4e14,50:2d5a27,100:154212&height=80&section=footer" width="100%" alt="footer"/>
+
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=somaylab&show_icons=true&hide_border=false&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&bg_color=0d1117&border_color=30363d" alt="GitHub Stats"/>
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=somaylab&layout=compact&hide_border=false&title_color=58a6ff&text_color=c9d1d9&bg_color=0d1117&border_color=30363d&langs_count=6" alt="Top Languages"/>
+
 </div>
 
-<!-- profile -->
+<br/>
+
+## Operational Protocol & Disclosures
+
+- **Mandate**: All utilities and research artifacts are developed for offensive security analysis, defensive infrastructure hardening, and educational auditing.
+- **Responsible Disclosure**: Security inquiries or vulnerability findings regarding any SomayLab tool should be reported via repository issue or advisory.
+- **Verification**: Production commits are cryptographically signed via verified keys.
