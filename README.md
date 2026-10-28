@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner-somaylab.svg?v=8" alt="Somaylab" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner-somaylab.svg?v=9" alt="Somaylab" width="100%" />
 
 </div>
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/dev-status.svg?v=8" alt="Somaylab Vibe Check" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/dev-status.svg?v=9" alt="Somaylab Vibe Check" width="100%" />
 
 </div>
 
@@ -22,10 +22,10 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 <div align="center">
   <a href="https://github.com/somaylab/session-swap">
-    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-session-swap-v2.svg?v=8" width="49%" alt="session-swap" />
+    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-session-swap-v2.svg?v=9" width="49%" alt="session-swap" />
   </a>
   <a href="https://github.com/somaylab/map-scrape">
-    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-map-scrape-v2.svg?v=8" width="49%" alt="map-scrape" />
+    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-map-scrape-v2.svg?v=9" width="49%" alt="map-scrape" />
   </a>
 </div>
 
@@ -68,7 +68,7 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/stat-sheet.svg?v=8" alt="Dev RPG Attributes" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/stat-sheet.svg?v=9" alt="Dev RPG Attributes" width="100%" />
 
 </div>
 
@@ -76,14 +76,14 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 ### Tech Stack
 
-- **Frontend & Web**: React 18/19, Inertia.js, Tailwind CSS, Vite, Blade Templates, Headless UI, Modern ESNext
-- **Backend & APIs**: Laravel 11+ (PHP 8.2+), FastAPI & Uvicorn (Python), Cloudflare Workers (Serverless Edge), Rust Async, Hono, Express, SQLite & MySQL
+- **Languages**: TypeScript, JavaScript (ESNext), Python 3, Rust, PHP, Java
+- **Frontend & Web**: React 18/19, Inertia.js, Tailwind CSS, Vite, Blade Templates, Headless UI
+- **Backend & APIs**: Laravel 11+ (PHP 8.2+), FastAPI & Uvicorn, Cloudflare Workers, Rust Async, Hono, Node.js, Express, SQLite & MySQL
 - **Extensions & Desktop**: Chromium Manifest V3 (MV3), Firefox Gecko, Tauri v2 (Rust), pywebview (Python Desktop), Android 16 Xposed
 - **Automation & Scraping**: Playwright, Patchright (Stealth), Headless Chromium, Puppeteer, Cheerio, Pandas, XlsxWriter
 
 <br/>
 
-#### Web & Frontend
 <div align="left">
   <img src="https://img.shields.io/badge/React-21262D?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
   <img src="https://img.shields.io/badge/Inertia.js-21262D?style=flat-square&logo=inertia&logoColor=9553E9" alt="Inertia.js"/>
@@ -91,45 +91,24 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
   <img src="https://img.shields.io/badge/Vite-21262D?style=flat-square&logo=vite&logoColor=646CFF" alt="Vite"/>
   <img src="https://img.shields.io/badge/TypeScript-21262D?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/JavaScript-21262D?style=flat-square&logo=javascript&logoColor=F7DF1E" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/HTML5-21262D?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-21262D?style=flat-square&logo=css&logoColor=1572B6" alt="CSS3"/>
-</div>
-
-<br/>
-
-#### Backend & Cloud APIs
-<div align="left">
-  <img src="https://img.shields.io/badge/PHP_8.2+-21262D?style=flat-square&logo=php&logoColor=777BB4" alt="PHP"/>
-  <img src="https://img.shields.io/badge/Laravel_11-21262D?style=flat-square&logo=laravel&logoColor=FF2D20" alt="Laravel"/>
-  <img src="https://img.shields.io/badge/FastAPI-21262D?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/Python_3-21262D?style=flat-square&logo=python&logoColor=3776AB" alt="Python"/>
   <img src="https://img.shields.io/badge/Rust-21262D?style=flat-square&logo=rust&logoColor=DEA584" alt="Rust"/>
+  <img src="https://img.shields.io/badge/PHP-21262D?style=flat-square&logo=php&logoColor=777BB4" alt="PHP"/>
+  <img src="https://img.shields.io/badge/Laravel-21262D?style=flat-square&logo=laravel&logoColor=FF2D20" alt="Laravel"/>
+  <img src="https://img.shields.io/badge/Python-21262D?style=flat-square&logo=python&logoColor=3776AB" alt="Python"/>
+  <img src="https://img.shields.io/badge/FastAPI-21262D?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI"/>
   <img src="https://img.shields.io/badge/Cloudflare_Workers-21262D?style=flat-square&logo=cloudflareworkers&logoColor=F38020" alt="Cloudflare Workers"/>
   <img src="https://img.shields.io/badge/Hono-21262D?style=flat-square&logo=hono&logoColor=E36002" alt="Hono"/>
   <img src="https://img.shields.io/badge/Node.js-21262D?style=flat-square&logo=nodedotjs&logoColor=5FA04E" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Express-21262D?style=flat-square&logo=express&logoColor=FFFFFF" alt="Express"/>
-  <img src="https://img.shields.io/badge/SQLite-21262D?style=flat-square&logo=sqlite&logoColor=003B57" alt="SQLite"/>
-</div>
-
-<br/>
-
-#### Platforms & Desktop
-<div align="left">
   <img src="https://img.shields.io/badge/Chromium_MV3-21262D?style=flat-square&logo=googlechrome&logoColor=4285F4" alt="Chromium MV3"/>
   <img src="https://img.shields.io/badge/Firefox_Gecko-21262D?style=flat-square&logo=firefox&logoColor=FF7139" alt="Firefox"/>
   <img src="https://img.shields.io/badge/Tauri_v2-21262D?style=flat-square&logo=tauri&logoColor=24C8D8" alt="Tauri v2"/>
   <img src="https://img.shields.io/badge/Android_16_Xposed-21262D?style=flat-square&logo=android&logoColor=3DDC84" alt="Android Xposed"/>
-  <img src="https://img.shields.io/badge/Linux_WSL-21262D?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux WSL"/>
-  <img src="https://img.shields.io/badge/Docker-21262D?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker"/>
-</div>
-
-<br/>
-
-#### Automation & Data Pipelines
-<div align="left">
   <img src="https://img.shields.io/badge/Playwright-21262D?style=flat-square&logo=playwright&logoColor=45BA4B" alt="Playwright"/>
   <img src="https://img.shields.io/badge/Puppeteer-21262D?style=flat-square&logo=puppeteer&logoColor=00D8A2" alt="Puppeteer"/>
   <img src="https://img.shields.io/badge/Pandas-21262D?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/SQLite-21262D?style=flat-square&logo=sqlite&logoColor=003B57" alt="SQLite"/>
+  <img src="https://img.shields.io/badge/Docker-21262D?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker"/>
+  <img src="https://img.shields.io/badge/Linux_WSL-21262D?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux WSL"/>
 </div>
 
 <br/>
@@ -138,7 +117,7 @@ Raw dogging native browser APIs, full-stack monoliths, local reverse proxies, an
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/developer-stats.svg?v=8" width="49%" alt="Engineering Stats" />
-<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/languages-stats.svg?v=8" width="49%" alt="Most Used Languages" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/developer-stats.svg?v=9" width="49%" alt="Engineering Stats" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/languages-stats.svg?v=9" width="49%" alt="Most Used Languages" />
 
 </div>
