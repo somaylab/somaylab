@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Somay Security Research Lab" width="100%" />
+<img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/banner.svg" alt="Somay Security Research Lab" width="100%" />
 
 <br/>
 
