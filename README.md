@@ -14,10 +14,10 @@ Building automation tools, web scrapers, browser extensions, and desktop applica
 
 <div align="center">
   <a href="https://github.com/somaylab/session-swap">
-    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-session-swap.svg" width="49%" alt="session-swap" />
+    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-session-swap-v2.svg" width="49%" alt="session-swap" />
   </a>
   <a href="https://github.com/somaylab/map-scrape">
-    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-map-scrape.svg" width="49%" alt="map-scrape" />
+    <img src="https://raw.githubusercontent.com/somaylab/somaylab/main/assets/card-map-scrape-v2.svg" width="49%" alt="map-scrape" />
   </a>
 </div>
 
